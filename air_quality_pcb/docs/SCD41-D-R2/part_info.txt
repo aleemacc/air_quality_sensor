@@ -1,0 +1,9 @@
+Manufacturer=Sensirion
+PartNumber=SCD41-D-R2
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=21
+Version=1.2
+Released=2021-03-23 17:35:31
+Downloaded=2026-04-14 11:32:12
+3D=Y

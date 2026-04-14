@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SGP41_D_R4'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Sensirion", "SGP41-D-R4" (!) = "", "SON80P244X244X95-7N", "Small Outline No-lead", "403-SGP41-D-R4", "https://www.mouser.co.uk/ProductDetail/Sensirion/SGP41-D-R4?qs=A6eO%252BMLsxmRqwfOE5NYPVA%3D%3D", "SGP41-D-R4", "https://www.arrow.com/en/products/sgp41-d-r4/sensirion-ag?utm_currency=USD&region=nac", "Air Quality Sensors VOC and NOx (MOX) Gas Pollutant Sensor", "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9_Gas_Sensors/Datasheets/Sensirion_Gas_Sensors_Datasheet_SGP41.pdf", "0.95 mm"
+END_PART
+
+END.

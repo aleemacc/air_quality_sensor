@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SGP41-D-R4"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-06-09:28:56)
+    (mountForm default
+        (footprintRef "SON80P244X244X95-7N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Sensirion
+PartNumber=SGP41-D-R4
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=1.1
+Released=2021-10-28 07:22:50
+Downloaded=2026-04-14 11:30:48
+3D=Y

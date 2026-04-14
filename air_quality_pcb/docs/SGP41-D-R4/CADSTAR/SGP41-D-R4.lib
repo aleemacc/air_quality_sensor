@@ -1,0 +1,18 @@
+.SGP41-D-R4 :1 ;Air Quality Sensors VOC and NOx (MOX) Gas Pollutant Sensor
+SON80P244X244X95-7N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="VSS" 3="SDA" 4="N/A" 5="VDDH" 6="SCL" 7="EP"
+*MXP 7
+*DFN SGP41-D-R4
+~!Manufacturer_Name (Sensirion)
+~!Manufacturer_Part_Number (SGP41-D-R4)
+~!Mouser Part Number (403-SGP41-D-R4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Sensirion/SGP41-D-R4?qs=A6eO%252BMLsxmRqwfOE5NYPVA%3D%3D)
+~!Arrow Part Number (SGP41-D-R4)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sgp41-d-r4/sensirion-ag?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9_Gas_Sensors/Datasheets/Sensirion_Gas_Sensors_Datasheet_SGP41.pdf)
+~!Height (0.95mm)
+~!3D_Model (SGP41-D-R4)
+SGP41-D-R4
+1.1!U 2.1!U 3.1!U 7.1!U 6.1!U 5.1!U 4.1!U 
