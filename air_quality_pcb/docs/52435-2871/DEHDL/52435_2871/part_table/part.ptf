@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '52435_2871'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "52435-2871" (!) = "", "524352871", "Other", "538-52435-2871", "https://www.mouser.co.uk/ProductDetail/Molex/52435-2871?qs=nDwhpid8gJaPoR8mew6yQg%3D%3D", "", "", "Molex 52435 Series 0.5mm Pitch 28 Way 1 Row Right Angle FPC Connector, Gold Plated Contacts", "https://www.molex.com/pdm_docs/sd/524352871_sd.pdf", "2 mm"
+END_PART
+
+END.

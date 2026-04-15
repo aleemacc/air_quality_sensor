@@ -1,4 +1,4 @@
-26492577433737306
+26494353702968579
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104521,8 +104521,8 @@ MQ-6
 
 
 0
-0
-0
+6
+6
 project_extras
 SCD41DR2
 SCD41-D-R2-1
@@ -104544,3 +104544,10 @@ XIAO-ESP32-C6-SMD
 0
 24
 24
+project_extras
+display_connector
+52435-2871-2
+Connector
+0
+30
+30
