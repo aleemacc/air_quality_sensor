@@ -1612,6 +1612,12 @@
 		(uuid "d1eccafc-d9b5-43fc-acdd-4254154bfffd")
 	)
 	(junction
+		(at 35.56 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773b300b-eca5-4265-b247-bcd695699599")
+	)
+	(junction
 		(at 69.85 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1622,6 +1628,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e7b05a-c854-4972-987b-9505c9f624c7")
+	)
+	(junction
+		(at 35.56 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab9f98ab-5f47-49de-8c4c-98961df2c1f7")
 	)
 	(junction
 		(at 85.09 115.57)
@@ -1642,6 +1654,12 @@
 		(uuid "ca62c9a1-b57f-4b38-aa4e-60703ec90df8")
 	)
 	(junction
+		(at 45.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdaede66-1bf0-463a-98e6-def4a6e3af55")
+	)
+	(junction
 		(at 85.09 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1649,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 53.34 68.58)
+			(xy 39.37 68.58) (xy 45.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 64.77) (xy 53.34 64.77)
+			(xy 27.94 64.77) (xy 35.56 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1696,6 +1714,26 @@
 			(type default)
 		)
 		(uuid "1e905f5d-6cbc-4f80-ac6e-7ae92517bfd7")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2615320e-f42d-47e0-bd25-b6b76e15532d")
+	)
+	(wire
+		(pts
+			(xy 35.56 64.77) (xy 53.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28942b4c-cb4b-42d7-950b-0a4b02d1efc6")
 	)
 	(wire
 		(pts
@@ -1729,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 60.96) (xy 53.34 60.96)
+			(xy 27.94 60.96) (xy 35.56 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1746,6 +1784,16 @@
 			(type default)
 		)
 		(uuid "82197465-117c-41f5-98bc-4771735bf7cf")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.96) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97581eca-fb4a-426c-af70-995b632053f7")
 	)
 	(wire
 		(pts
@@ -2041,7 +2089,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 68.58 0)
+		(at 39.37 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2050,7 +2098,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eee8380-f65e-4541-a1d1-33a217cb30ec")
 		(property "Reference" "#PWR014"
-			(at 52.07 72.39 0)
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2107,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 63.5 0)
+			(at 39.37 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 68.58 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 68.58 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 68.58 0)
+			(at 39.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,8 +2220,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359b5af9-8d07-4d52-be74-f82d8f40a57b")
+		(property "Reference" "#FLG03"
+			(at 35.56 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4400b2d1-6c76-4b31-b34f-b8cab839c7b5")
+		)
+		(instances
+			(project "air_quality_pcb"
+				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 40.64 64.77 0)
+		(at 27.94 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2182,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "3eb8195a-4908-4466-94fb-7f8049b253fe")
 		(property "Reference" "#PWR05"
-			(at 40.64 71.12 0)
+			(at 27.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 69.85 0)
+			(at 27.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 64.77 0)
+			(at 27.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 64.77 0)
+			(at 27.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 64.77 0)
+			(at 27.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2491,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.64 60.96 0)
+		(at 27.94 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2386,7 +2500,7 @@
 		(fields_autoplaced yes)
 		(uuid "74fa2a53-789e-49e4-907d-4b9ef1ff0e86")
 		(property "Reference" "#PWR04"
-			(at 40.64 64.77 0)
+			(at 27.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2509,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 55.88 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 60.96 0)
+			(at 27.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 60.96 0)
+			(at 27.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 60.96 0)
+			(at 27.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,6 +2550,72 @@
 			(project "air_quality_pcb"
 				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 45.72 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a67ba0-29eb-482e-9fa8-b6b6833a1b02")
+		(property "Reference" "#FLG05"
+			(at 45.72 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c555ed9-81a0-432e-8724-dbc8cace607e")
+		)
+		(instances
+			(project "air_quality_pcb"
+				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3014,6 +3194,72 @@
 			(project "air_quality_pcb"
 				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 35.56 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da8fa551-b8c3-47c1-b420-d5be01f123b2")
+		(property "Reference" "#FLG04"
+			(at 35.56 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbb61fc0-8351-471f-a289-99f7d8976878")
+		)
+		(instances
+			(project "air_quality_pcb"
+				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
