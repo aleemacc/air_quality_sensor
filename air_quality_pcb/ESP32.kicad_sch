@@ -286,156 +286,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1618,12 +1468,6 @@
 		(uuid "773b300b-eca5-4265-b247-bcd695699599")
 	)
 	(junction
-		(at 69.85 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80423a0d-9885-44d6-a672-ba5f0d9a8dd9")
-	)
-	(junction
 		(at 69.85 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1642,6 +1486,12 @@
 		(uuid "b5671c74-25ee-40ff-82bb-34a967747e5e")
 	)
 	(junction
+		(at 69.85 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b69aade7-7350-42fc-8217-ea3fc2e94448")
+	)
+	(junction
 		(at 62.23 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1658,12 +1508,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdaede66-1bf0-463a-98e6-def4a6e3af55")
-	)
-	(junction
-		(at 85.09 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5579a97-ec23-4506-b42d-ea91a0d40230")
 	)
 	(wire
 		(pts
@@ -1757,16 +1601,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 118.11) (xy 86.36 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa6eeb2-4709-45f2-adcc-e114ea0ce35a")
-	)
-	(wire
-		(pts
 			(xy 27.94 60.96) (xy 35.56 60.96)
 		)
 		(stroke
@@ -1797,7 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 85.09 118.11)
+			(xy 76.2 118.11) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 69.85 101.6 180)
+		(at 69.85 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2164,7 +1998,7 @@
 		(fields_autoplaced yes)
 		(uuid "26d642b1-e846-41e6-ac2a-e0d523adcc34")
 		(property "Reference" "#PWR07"
-			(at 69.85 97.79 0)
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2007,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 69.85 106.68 0)
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 101.6 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 101.6 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 69.85 101.6 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,142 +2584,6 @@
 			(project "air_quality_pcb"
 				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 69.85 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a982e070-e454-4320-be3a-f3474e791c77")
-		(property "Reference" "JP1"
-			(at 72.39 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 72.39 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09851f05-9ba1-4273-a1d8-3df3dc3e78c2")
-		)
-		(pin "2"
-			(uuid "235a0833-36ee-400c-9306-c3047ef3feea")
-		)
-		(instances
-			(project "air_quality_pcb"
-				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 85.09 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aca539b0-b981-4ae9-8186-987b02a6c5e2")
-		(property "Reference" "#FLG02"
-			(at 85.09 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 85.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34f05f86-3920-4103-accf-2355ad39896c")
-		)
-		(instances
-			(project "air_quality_pcb"
-				(path "/be1998fb-5191-483f-bd03-46c23a7136b7/d57d56af-76e6-4004-8c91-b6d59a7a3d21"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

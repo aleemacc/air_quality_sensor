@@ -1,4 +1,4 @@
-26494353702968579
+26499683375364160
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104517,6 +104517,20 @@ BATT_connector
 2
 2
 project_extras
+CAPPM3216X180N
+F930J476MAA
+Capacitor Polarised
+0
+2
+2
+project_extras
+INDPM6363X300N
+Size 6.3 x 6.3 x 3.0 (mm)
+Inductor
+0
+2
+2
+project_extras
 MQ-6
 
 
@@ -104537,6 +104551,13 @@ Integrated Circuit
 0
 7
 7
+project_extras
+TPS74901DRCR
+DRC0010J
+Integrated Circuit
+0
+15
+11
 project_extras
 XIAO-ESP32-C6-SMD
 

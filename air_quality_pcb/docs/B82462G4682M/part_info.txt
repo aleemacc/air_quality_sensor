@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B82462G4682M
+PartCategory=Inductor
+PackageCategory=Inductors Precision Moulded
+PinCount=2
+Version=1.1
+Released=2019-08-02 10:17:02
+Downloaded=2026-04-18 00:36:59
+3D=Y

@@ -25,3 +25,7 @@ I've also added a FFC connector to add a TFT display.
 
 ### Seed Studio's ESP32-C6
 This will be the main MCU for the device. Mostly chosen because it is what I had on hand, but also because of it's flat underside, enabling it to be SMD mounted. It also has great connectivity, both in GPIO pins and wireless (WiFi, BLE and Zigbee).
+
+### To be implemented
+Looking up ways to isolate the temperature sensor. 
+feeding the MQ-x sensor with the battery and using a shorter battery (18xxx).

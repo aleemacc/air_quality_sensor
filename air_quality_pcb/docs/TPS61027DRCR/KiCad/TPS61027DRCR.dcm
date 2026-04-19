@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61027DRCR
+D Switching Voltage Regulators 5-V Otp 1.5-A Swit Boost Converter
+K
+F http://www.ti.com/lit/ds/symlink/tps61027.pdf
+$ENDCMP
+#
+#End Doc Library

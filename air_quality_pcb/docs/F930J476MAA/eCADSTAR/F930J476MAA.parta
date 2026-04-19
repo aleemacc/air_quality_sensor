@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_565641"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-27-10:13:19)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "F930J476MAA")
+)
+
+
+(pinAssign "ECS_565641"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-27-10:13:19)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_565641")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "F930J476MAA")
+)
+
+
+(part "F930J476MAA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-27-10:13:19)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "F930J476MAA")
+    (pinAssignRef "ECS_565641")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "AVX - F930J476MAA - Surface Mount Tantalum Capacitor, 47 F, 6.3 V, 1206 [3216 Metric], F93 Series, +/- 20%, -55 C")
+    (property "Manufacturer_Name" "Kyocera AVX")
+    (property "Manufacturer_Part_Number" "F930J476MAA")
+    (property "Mouser_Part_Number" "647-F930J476MAA")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=647-F930J476MAA")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "http://datasheets.avx.com/F93.pdf")
+    (property "compAreaTopHeight" 1.8)
+)
+
+

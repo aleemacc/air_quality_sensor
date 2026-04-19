@@ -1,0 +1,19 @@
+.TPS61027DRCR :1 ;Switching Voltage Regulators 5-V Otp 1.5-A Swit Boost Converter
+TPS74901DRCR
+*STM IC
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=EP1
+*PLB 1="EN" 2="VOUT" 3="FB" 4="LBO" 5="GND" 6="VBAT" 7="LBI" 8="PS" 9="SW" 10="PGND" 11="POWERPAD"
+*MXP 15
+*DFN TPS61027DRCR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS61027DRCR)
+~!Mouser Part Number (595-TPS61027DRCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61027DRCR?qs=Gse6rAGbi78iAvUvZ29RAw%3D%3D)
+~!Arrow Part Number (TPS61027DRCR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps61027drcr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/tps61027.pdf)
+~!Height (-)
+~!3D_Model (TPS61027DRCR)
+TPS61027DRCR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 
