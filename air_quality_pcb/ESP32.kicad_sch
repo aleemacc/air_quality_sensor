@@ -1833,6 +1833,28 @@
 			)
 		)
 	)
+	(global_label "BUZZ"
+		(shape input)
+		(at 91.44 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ba50110-5a26-4423-af28-b6ce4bbec6ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.4447 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDOX"
 		(shape input)
 		(at 53.34 53.34 180)
@@ -1873,28 +1895,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TE"
-		(shape input)
-		(at 91.44 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8702613-41f0-4388-8019-af569547533e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.5418 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
