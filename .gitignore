@@ -1,0 +1,63 @@
+# ==== Archivos temporales ====
+*.tmp
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_pro-bak
+
+# ==== Archivos de autosave ====
+*_autosave-*
+*.save
+
+# ==== Archivos de caché ====
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# ==== Netlists y outputs intermedios ====
+*.net
+*.xml
+
+# ==== Archivos de simulación (ngspice, etc.) ====
+*.raw
+*.spice
+*.cir
+
+# ==== Archivos de fabricación (generados) ====
+*.gbr
+*.gerber
+*.drl
+*.pos
+*.rpt
+*.csv
+*.d356
+
+# Carpeta típica de gerbers/exportaciones
+gerbers/
+fabrication/
+production/
+
+# ==== Archivos de impresión/exportación ====
+*.pdf
+*.svg
+*.ps
+
+# ==== Caché de librerías ====
+*-cache.lib
+*-rescue.lib
+*-cache.kicad_sym
+*-rescue.kicad_sym
+
+# ==== Archivos de backup de símbolos/huellas ====
+*.bak
+*.backup
+
+# ==== Archivos de configuración local ====
+*.kicad_prl
+fp-info-cache
+
+# ==== Carpeta de backups ====
+backups/
+
+# ==== Archivos de usuario específicos del sistema ====
+.DS_Store
+Thumbs.db
