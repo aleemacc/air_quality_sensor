@@ -6795,17 +6795,6 @@
 		(uuid "0b2092b2-1a22-4141-88d0-4dbebec2caad")
 	)
 	(gr_rect
-		(start 64.45 95.73)
-		(end 82.6 130.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "c174fcea-4eb3-44ad-a48a-4e581b35d98d")
-	)
-	(gr_rect
 		(start 40.1 55.9)
 		(end 115.1 130.9)
 		(stroke
@@ -6997,7 +6986,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 86 62.2 0)
+		(at 91.1 62.2 0)
 		(layer "F.SilkS")
 		(uuid "7026e80e-5dd6-420d-aa78-a933a6b369a0")
 		(effects
