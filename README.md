@@ -1,31 +1,56 @@
-# air_quality_sensor
+# Description
+This project consists on the full development of an embedded system, with the purpose of measuring air quality.
+### Included in this project:
+- PCB design and schematics
+- Firmware for the device
+- Communication with other devices
+- Integration with external systems (graphical interface)
 
-## Requirements
-The device mainly needs to measure temperature, humidity, CO2 levels, TVOC levels and LPG
+# Characteristics
+- The device will be able to measure the following:
+  - Temperature
+  - Humidity
+  - CO2 levels
+  - TVOC
+  - NOx
+  - LPG
+  - CO
+- Wireless connectivity (WiFi, BLE or LoRa)
+- Modularity. Ideally you should be able to use only the sensors you need.
 
+# Hardware
+## ESP32-C6
+The device is built around Seed Studio's ESP32-C6 dev-board, this simplifies the PCB design. Given its size and extensive set of features, it gives the project tons of flexibility.
+
+## Sensors
 ### SCD41
-This sensor takes care of temperature, humidity and CO2 levels.
-More information will be added further down development.
-
+Sensirion's SCD41 provides temperature, humidity and CO2 measurements with enough precision for home use. It also includes calibration for the CO2 measurements.
 ### SGP41
-This sensor takes care of TVOC levels and additionally NOx levels.
-More information will be added further down development.
-
+Also from Sensirion, but it measures TVOC and NOx. Temperature from the previous sensor can be used to calibrate the SGP41.
 ### MQ-6
-This sensor takes care of LPG gasses.
-Since both this sensor and the MQ-7 only run of 5v I've added a solder jumper between the MCU and the battery, to ensure that the battery is only used if these two sensors are not connected. This jumper must be shorted for the device to run on battery power.
-More information will be added further down development.
-
+Manufactured by SparkFun, this is a LPG sensor.
 ### MQ-7
-Added this sensor for carbon monoxide measurements. 
-It has the same symbol and footprint as the MQ-6 sensor. It is also wired equally.
+Once again manufactured by SparkFun, this senses Carbon Monoxide.
 
-### Display connector
-I've also added a FFC connector to add a TFT display.
+## Display
+The design features a FFC connector to add a TFT display.
 
-### Seed Studio's ESP32-C6
-This will be the main MCU for the device. Mostly chosen because it is what I had on hand, but also because of it's flat underside, enabling it to be SMD mounted. It also has great connectivity, both in GPIO pins and wireless (WiFi, BLE and Zigbee).
+## Power
+When powered by the ESP's USB-C connector, the ESP board itself provides power to every component.
+When a one cell battery pack is used (ie. 18650 or 18300 Li-ion), components powered by 3V3 are still managed by the ESP. However, sensors requiring 5V are powered through a Boost Converter that transforms the batteries voltage to a steady 5V.
 
-### To be implemented
-Looking up ways to isolate the temperature sensor. 
-feeding the MQ-x sensor with the battery and using a shorter battery (18xxx).
+## Interfaces
+The sensor SCD41 and SGP41 communicate over I2C, both MQ-x sensors use an analog signal and the display will be set up to use 4-wire SPI.
+
+# PCB
+The current version of the project features a 2 layer PCB, with the bottom one being a ground plane.
+The large space in the middle is there to give space for a 18650 or 18300 battery (depending on which sensors are installed). It also serves to distance the SCD41 sensor from heat sources, such as the MCU or the boost converter.
+The SCD41 sensor is excluded from the ground plane and placed within an isolation island, for better accuracy in the temperature measurements
+
+# Firmware
+// Yet to be implemented
+
+# Images
+
+# Documentation
+All the documentation used for the design of the PCB can be found at `./air_quality_pcb/docs/`
