@@ -53,4 +53,4 @@ The SCD41 sensor is excluded from the ground plane and placed within an isolatio
 # Images
 
 # Documentation
-All the documentation used for the design of the PCB can be found at `./air_quality_pcb/docs/`
+All the documentation used for the design of the PCB can be found at `./hardware/docs/`
