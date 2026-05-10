@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=52435-2871
+PartCategory=Connector
+PackageCategory=Other
+PinCount=30
+Version=1.1
+Released=2018-11-30 17:51:17
+Downloaded=2026-04-15 16:47:01
+3D=Y

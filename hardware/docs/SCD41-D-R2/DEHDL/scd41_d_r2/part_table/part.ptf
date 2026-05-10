@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SCD41_D_R2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Sensirion", "SCD41-D-R2" (!) = "", "SCD41DR2", "Other", "403-SCD41-D-R2", "https://www.mouser.co.uk/ProductDetail/Sensirion/SCD41-D-R2?qs=HBWAp0VN4Ri4o7ei4T3s0g%3D%3D", "SCD41-D-R2", "https://www.arrow.com/en/products/scd41-d-r2/sensirion-ag?utm_currency=USD&region=nac", "Air Quality Sensor CO2 Sensor 2.5V/3.3V/5V 20-Pin SMD EP", "https://cz.mouser.com/datasheet/2/682/Sensirion_CO2_Sensors_SCD4x_Datasheet-2010009.pdf", "6.8 mm"
+END_PART
+
+END.

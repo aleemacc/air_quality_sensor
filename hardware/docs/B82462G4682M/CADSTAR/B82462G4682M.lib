@@ -1,0 +1,18 @@
+.B82462G4682M :1 ;EPCOS - B82462G4682M - INDUCTOR, 6.8UH, 20%, 1.65A, 40MHZ
+INDPM6363X300N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B82462G4682M
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B82462G4682M)
+~!Mouser Part Number (871-B82462G4682M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82462G4682M?qs=%2FkiEPUfD%2FqkbYOo7sFcBdg%3D%3D)
+~!Arrow Part Number (B82462G4682M)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/b82462g4682m/epcos-tdk?region=nac)
+~!Link Datasheet (https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82462g4.pdf)
+~!Height (3mm)
+~!3D_Model (B82462G4682M)
+B82462G4682M
+1.1!U 2.1!U 

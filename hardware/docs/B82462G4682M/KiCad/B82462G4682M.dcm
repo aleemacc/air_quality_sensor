@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B82462G4682M
+D EPCOS - B82462G4682M - INDUCTOR, 6.8UH, 20%, 1.65A, 40MHZ
+K
+F https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82462g4.pdf
+$ENDCMP
+#
+#End Doc Library

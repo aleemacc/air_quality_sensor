@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS61027DRCR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-29-16:35:39)
+    (mountForm default
+        (footprintRef "TPS74901DRCR")
+        (spec "System")
+    )
+)

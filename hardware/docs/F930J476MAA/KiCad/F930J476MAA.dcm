@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP F930J476MAA
+D AVX - F930J476MAA - Surface Mount Tantalum Capacitor, 47 F, 6.3 V, 1206 [3216 Metric], F93 Series, +/- 20%, -55 C
+K
+F http://datasheets.avx.com/F93.pdf
+$ENDCMP
+#
+#End Doc Library

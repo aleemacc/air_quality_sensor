@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCD41-D-R2
+D Air Quality Sensor CO2 Sensor 2.5V/3.3V/5V 20-Pin SMD EP
+K
+F https://cz.mouser.com/datasheet/2/682/Sensirion_CO2_Sensors_SCD4x_Datasheet-2010009.pdf
+$ENDCMP
+#
+#End Doc Library

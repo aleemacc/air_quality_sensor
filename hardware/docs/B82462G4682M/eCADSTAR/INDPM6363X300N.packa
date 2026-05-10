@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B82462G4682M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-27-16:06:22)
+    (mountForm default
+        (footprintRef "INDPM6363X300N")
+        (spec "System")
+    )
+)

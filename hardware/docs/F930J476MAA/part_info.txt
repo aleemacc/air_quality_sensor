@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=F930J476MAA
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Moulded Polarised
+PinCount=2
+Version=2.1
+Released=2020-06-27 10:13:19
+Downloaded=2026-04-18 00:21:14
+3D=Y

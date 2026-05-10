@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B82462G4682M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "B82462G4682M" (!) = "", "INDPM6363X300N", "Inductors Precision Moulded", "871-B82462G4682M", "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82462G4682M?qs=%2FkiEPUfD%2FqkbYOo7sFcBdg%3D%3D", "B82462G4682M", "https://www.arrow.com/en/products/b82462g4682m/epcos-tdk?region=nac", "EPCOS - B82462G4682M - INDUCTOR, 6.8UH, 20%, 1.65A, 40MHZ", "https://www.tdk-electronics.tdk.com/inf/30/db/ind_2008/b82462g4.pdf", "3 mm"
+END_PART
+
+END.
