@@ -53,4 +53,12 @@ The SCD41 sensor is excluded from the ground plane and placed within an isolatio
 # Images
 
 # Documentation
-All the documentation used for the design of the PCB can be found at `./hardware/docs/`
+All the documentation used for the design of the PCB can be found at `./hardware/kicad/docs/`
+
+# License
+This project is licensed under multiple licenses:
+
+- Firmware: Apache License 2.0
+- Hardware: CERN Open Hardware Licence v2 - Permissive (OHL-P)
+
+See the LICENSE files in each directory for details.

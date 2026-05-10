@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "c73340ec-8b50-4762-86d4-e0a474013def")
 	(paper "A3")
+	(title_block
+		(title "Air Quality Monitor")
+		(date "2026-05-10")
+		(rev "v1.0")
+		(comment 1 "Author: Alejandro Macias Chaves")
+		(comment 2 "Licensed under CERN-OHL-P-2.0")
+	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names

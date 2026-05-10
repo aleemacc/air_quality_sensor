@@ -1,0 +1,4 @@
+This project contains multiple components with different licenses:
+
+- Firmware: Apache License 2.0 (see /firmware/LICENSE)
+- Hardware: CERN Open Hardware Licence v2 - Permissive (see /hardware/LICENSE)

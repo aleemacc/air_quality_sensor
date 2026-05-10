@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "886656d8-083c-4030-af6f-1aa5435c0f96")
 	(paper "A4")
+	(title_block
+		(title "Air Quality Monitor")
+		(date "2026-05-10")
+		(rev "v1.0")
+		(comment 1 "Author: Alejandro Macias Chaves")
+		(comment 2 "Licensed under CERN-OHL-P-2.0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
