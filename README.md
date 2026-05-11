@@ -53,7 +53,7 @@ For now only yaml code has been added for testing in home assistant with limited
 
 # Images
 
-![BreadBoard prototype](./images/bb_prototype_01.jpg)
+<img src="./images/bb_prototype_01.jpg" alt="breadboard prototype" width="200">  <br>
 This shows the first working prototype on a breadboard, only with the SCD41 and the SGP41 sensors.
 
 # Documentation
