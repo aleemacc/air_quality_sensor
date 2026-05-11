@@ -48,9 +48,13 @@ The large space in the middle is there to give space for a 18650 or 18300 batter
 The SCD41 sensor is excluded from the ground plane and placed within an isolation island, for better accuracy in the temperature measurements
 
 # Firmware
-// Yet to be implemented
+This device is intended to work both with home assistant and independently.
+For now only yaml code has been added for testing in home assistant with limited functionality.
 
 # Images
+
+![BreadBoard prototype](./images/bb_prototype_01.jpg)
+This shows the first working prototype on a breadboard, only with the SCD41 and the SGP41 sensors.
 
 # Documentation
 All the documentation used for the design of the PCB can be found at `./hardware/kicad/docs/`
